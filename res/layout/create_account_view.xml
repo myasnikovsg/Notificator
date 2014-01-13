@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/create_account_relative_layout">
+        <RelativeLayout
+            android:id="@+id/create_account_login_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_below="@+id/create_account_login_text"
+            android:layout_marginTop="5dp" android:baselineAligned="false">
+            <EditText android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_width="200dp" android:id="@+id/create_account_login_edit" android:maxLength="14" android:layout_gravity="center_horizontal"></EditText>
+            <ImageView android:layout_width="wrap_content" android:src="@drawable/checked1" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:id="@+id/create_account_login_status"></ImageView>
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:id="@+id/create_account_login_progress"></ProgressBar>
+        </RelativeLayout>
+        <TextView android:id="@+id/create_account_login_promt" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/create_account_login_wrapper" android:layout_centerHorizontal="true"></TextView>
+        <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_below="@+id/create_account_login_promt" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:id="@+id/create_account_password_text" android:text="@string/password"></TextView>
+        <RelativeLayout 
+            android:id="@+id/create_account_password_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_below="@+id/create_account_password_text"
+            android:layout_marginTop="5dp" android:baselineAligned="false">
+           <EditText android:layout_height="wrap_content" android:inputType="textPassword" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_width="200dp" android:id="@+id/create_account_password_edit" android:maxLength="14" android:layout_gravity="center_horizontal"></EditText>
+            <ImageView android:layout_width="wrap_content" android:src="@drawable/checked1" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:id="@+id/create_account_password_status"></ImageView>
+        </RelativeLayout>
+        <TextView android:id="@+id/create_account_password_promt" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/create_account_password_wrapper" android:layout_centerHorizontal="true"></TextView>
+        <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_below="@+id/create_account_password_promt" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:id="@+id/create_account_password_confirm_text" android:text="@string/password_confirm"></TextView>
+        <RelativeLayout 
+            android:id="@+id/create_account_password_confirm_wrapper" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal"
+            android:layout_below="@+id/create_account_password_confirm_text"
+            android:layout_marginTop="5dp" android:baselineAligned="false">
+           <EditText android:layout_height="wrap_content" android:inputType="textPassword" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_width="200dp" android:id="@+id/create_account_password_confirm_edit" android:maxLength="14" android:layout_gravity="center_horizontal"></EditText>
+           <ImageView android:layout_width="wrap_content" android:src="@drawable/checked1" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="10dp" android:id="@+id/create_account_password_confirm_status"></ImageView>
+        </RelativeLayout>
+        <TextView android:id="@+id/create_account_password_confirm_promt" android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/create_account_password_confirm_wrapper" android:layout_centerHorizontal="true"></TextView>
+        <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/create_account_login_text" android:layout_width="wrap_content" android:text="@string/login_name" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="20dp"></TextView>
+        <Spinner android:layout_height="wrap_content" android:layout_below="@+id/create_account_game_zone_text" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:layout_width="180dp" android:id="@+id/create_account_game_zone_spinner"></Spinner>
+        <Button android:layout_height="wrap_content" android:layout_below="@+id/create_account_game_zone_spinner" android:layout_centerHorizontal="true" android:layout_marginTop="5dp" android:text="@string/create_account" android:layout_width="wrap_content" android:id="@+id/create_account_create_button"></Button>
+        <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/create_account_game_zone_text" android:layout_width="wrap_content" android:text="@string/game_zone_text" android:layout_below="@+id/create_account_password_confirm_promt" android:layout_alignRight="@+id/create_account_login_text" android:layout_marginTop="5dp"></TextView>
+    </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/radio_string_relative_layout" android:layout_height="40dp">
+        <RadioButton android:layout_width="wrap_content" android:text="RadioButton" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:id="@+id/radio_string_box" android:layout_marginRight="5dp" android:clickable="false" android:focusable="false"></RadioButton>
+        <TextView android:layout_width="wrap_content" android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/radio_string_text" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/radio_string_box" android:layout_alignBottom="@+id/radio_string_box" android:layout_alignParentLeft="true" android:layout_marginLeft="5dp"></TextView>
+    </RelativeLayout>
+    
+</LinearLayout>

@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NotificatorActivity!</string>
+    <string name="app_name">Notificator</string>
+    <string name="login_text">Login</string>
+    <string name="password">Password</string>
+    <string name="login_button">Log in</string>
+    <string name="login_create">Create new</string>
+    <string name="login_success">Your logging in was successful!</string>
+    <string name="login_failure">Something wrong with your login or password.</string>
+    <string name="OK">OK</string>
+    <string name="login_name">Login name</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="game_zone_text">Game zone</string>
+    <string name="create_account">Create account</string>
+    <string-array name="game_zone">
+        <item>America</item><item>Asia</item>
+        
+        <item>Europe</item>
+    </string-array>
+    <string name="provide_login">Please provide login.</string>
+    <string name="taken_login">This login name already taken.</string>
+    <string name="provide_password">Please provide password.</string>
+    <string name="incorrect_password">Password should contain at least 5 symbols.</string>
+    <string name="confirm_password">Please confirm yout password.</string>
+    <string name="password_mismatch">Password and it\'s confirmation mismatches.</string>
+    <string name="create_success">Your account were successfully created.</string>
+    <string name="loading_orders">Loading orders. Please wait...</string>
+    <string name="orders_loading_error">An error occured during loading orders. Please try later.</string>
+    <string name="no_orders_yet">No orders yet.</string>
+    <string name="create_order">Create order</string>
+    <string-array name="classes">
+        <item>Barbarian</item>
+        <item>Demon Hunter</item>
+        <item>Monk</item>
+        <item>Witch Doctor</item>
+        <item>Wizard</item>
+    </string-array>
+    <string-array name="create_order_list">
+        <item>Classes</item>
+    </string-array>
+    <string-array name="delimiters">
+        <item>Game mode</item>
+        <item>Classes</item>
+        <item>Level group</item><item>Item primary type</item>
+        <item>Item secondary type</item>
+        <item>DPS</item>
+        <item>Armor</item>
+        <item>DPS / Armor</item>
+        <item>Properties</item>
+        <item>Buyout</item>
+        <item>Name for notifications</item>
+        
+    </string-array>
+    <string-array name="game_mode">
+        <item>Hardcore</item>
+        <item>Softcore</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string-array name="dialog_title">
+        <item>Pick game mode</item>
+        <item>Pick desired classes</item>
+        <item>Pick level group</item>
+        <item>Pick primary type</item>
+        <item>Pick secondary type</item>
+        <item>Type DPS</item>
+        <item>Type Armor</item>
+        <item>Pick property</item>
+        <item>Type max buyout</item>
+        <item>Type name to notify</item>
+        <item>Do you want to create this order? This cannot be undone.</item>
+    </string-array>
+    <string-array name="lvl_group">
+        <item>50 - 54</item>
+        <item>55 - 59</item>
+        <item>60 - 60</item>
+    </string-array>
+    <string-array name="primary_type">
+        <item>1-Hand</item>
+        <item>2-Hand</item>
+        <item>Off-Hand</item>
+        <item>Armor</item>
+        <item>Follower Special</item>
+    </string-array>
+    <string-array name="onehand_items">
+        <item>Axe</item>
+        <item>Ceremonial Knife</item><item>Hand Crossbow</item><item>Dagger</item>
+        
+        
+        <item>Fist Weapon</item>
+        <item>Mace</item>
+        <item>Mighty Weapon</item>
+        <item>Spear</item>
+        <item>Sword</item>
+        <item>Wand</item>
+    </string-array>
+    <string-array name="twohand_items">
+        <item>2-H Axe</item><item>Bow</item><item>Daibo</item><item>Crossbow</item><item>2-H Mace</item>
+        <item>2-H Mighty Weapon</item><item>Polearm</item><item>Staff</item><item>2-H Sword</item>
+        
+        
+        
+        
+        
+        
+        
+    </string-array>
+    <string-array name="offhand_items">
+        <item>Mojo</item>
+        <item>Source</item>
+        <item>Quiver</item>
+        <item>Shield</item>
+    </string-array>
+    <string-array name="armor_items">
+        <item>Amulet</item>
+        <item>Belt</item>
+        <item>Boots</item>
+        <item>Bracers</item>
+        <item>Chest Armor</item>
+        <item>Cloak</item>
+        <item>Gloves</item>
+        <item>Helm</item>
+        <item>Pants</item>
+        <item>Mighty Belt</item>
+        <item>Ring</item>
+        <item>Shoulders</item>
+        <item>Spitit Stone</item>
+        <item>Voodoo Mask</item>
+        <item>Wizard Hat</item>
+    </string-array>
+    <string-array name="follower_items">
+        <item>Enchantress Focus</item>
+        <item>Scoundrel Token</item>
+        <item>Templar Relic</item>
+    </string-array>
+    <string name="add_property">Add property</string>
+    <string-array name="property_string">
+        <item>Increases Attack Speed by $%</item>
+        <item>Ёбаный блид</item> 
+        <item>+$ Arcane Damage</item>
+        <item>+$ Cold Damage</item>
+        <item>+$ Fire Damage</item>
+        <item>+$ Holy Damage</item>
+        <item>+$ Lightning Damage</item>
+        <item>+$ Poison Damage</item>
+        <item>+$ Minimum Damage</item>
+        <item>+$ Maximum Damage</item>
+        <item>Increases Damage Against Elites by $%</item>
+        <item>Critical Hit Damage Increased by $%</item>
+        <item>+$% Damage</item>
+        <item>$% Chance to Blind on Hit</item>
+        <item>$% Chance to Chill on Hit</item>
+        <item>$% Chance to Fear on Hit</item>
+        <item>$% Chance to Freeze on Hit</item>
+        <item>$% Chance to Immobilize on Hit</item>
+        <item>$% Chance to Knockback on Hit"</item>
+        <item>$% Chance to Slow on Hit</item>
+        <item>$% Chance to Stun on Hit</item>
+        <item>$% of Damage Dealt Is Converted to Life</item>
+        <item>+$ Life after Each Kill</item>
+        <item>Each Hit Adds +$ Life</item>
+        <item>Gain $ Life per Spirit Spent</item>
+        <item>Critical Hits grant $ Arcane Power"</item>
+        <item>Increases Hatred Regeneration by $ per Second</item>
+        <item>Increases Mana Regeneration by $ per Second</item>
+        <item>+$ Maximum Arcane Power"</item>
+        <item>+$ Maximum Discipline</item>
+        <item>+$ Maximum Fury</item>
+        <item>+$ Maximum Mana</item>
+        <item>Increases Spirit Regeneration by $ per Second</item>
+        <item>+$ Dexterity"</item>
+        <item>Monster kills grant +$ experience</item>
+        <item>+$ Intelligence</item>
+        <item>+$ Strength</item>
+        <item>+$ Vitality</item>
+        <item>Reduces resource cost of Firebomb by $ Mana</item>
+        <item>Increases Haunt Damage by $%</item>
+        <item>Increases Plague of Thoads Damage by $%</item>
+        <item>Increases Critical Hit Chance of Energy Twister by $%</item>
+        <item>Increases Magic Missile Damage by $%</item>
+        <item>Ignores Durability Loss</item>
+        <item>Level Requirement Reduced by $</item>
+        <item>Reduces resource cost of Hammer of the Ancients by $ Fury</item>
+        <item>Increases Critical Hit Chance of Overpower by $%</item>
+        <item>Increases Critical Hit Chance of Seismic Slam by $%</item>
+        <item>Increases Critical Hit Chance of Whirlwind by $%</item>
+        <item>Reduces resource cost of Lashing Tail Kick by $ Spirit</item>
+        <item>Increases Critical Hit Chance of Tempest Rush by $%</item>
+        <item>Increases Critical Hit Chance of Wave of Light by $%</item>
+        <item>Increases Poison Dart Damage by $%</item>
+        <item>Increases Spirit Barrage Damage by $%</item>
+        <item>Reduces cooldown of Wall of Zombies by $ seconds</item>
+        <item>Reduces resource cost of Zombie Charger by $ Mana</item>
+        <item>+$ Resistance to All Elements</item>
+        <item>+$ Arcane Resistance</item>
+        <item>+$ Armor</item>
+        <item>+$% Chance to Block</item>
+        <item>+$ Cold Resistance</item>
+        <item>+$ Fire Resistance</item>
+        <item>+$ Lightning Resistance</item>
+        <item>Melee attackers takes $ damage per hit</item>
+        <item>+$ Physical Resistance</item>
+        <item>+$ Poison Resistance</item>
+        <item>Reduces damage from elites by $%</item>
+        <item>Reduces damage from melee attacks by $%</item>
+        <item>Reduces damage from ranged attacks by $%</item>
+        <item>Reduces duration of control imparing effects by $%</item>
+        <item>Health Globes Grant +$ Life</item>
+        <item>+$% Life</item>
+        <item>Regenerates $ Life per Second</item>
+        <item>Increases Bola Shot Damage by $%</item>
+        <item>Increases Elemental Arrow Damage by $%</item>
+        <item>Increases Entagling Shot Damage by $%</item>
+        <item>Increases Hungering Arrow Damage by $%</item>
+        <item>Increases Critical Hit Chance of Multishot by $%</item>
+        <item>Increases Critical Hit Chance of Rapid Fire by $%</item>
+        <item>Increases Critical Hit Chance of Arcane Orb by $%</item>
+        <item>Increases Duration of Blizzard by $ Seconds</item>
+        <item>Reduces resource cost of Meteor by $ Arcane Power</item>
+        <item>Increases Shock Pulse Damage by $%</item>
+        <item>Increases Spectral Blade Damage by $%</item>
+        <item>+$% Extra Gold from Monsters</item>
+        <item>$% Better Chance of Finding Magical Items</item>
+        <item>Increases Bash Damage by $%</item>
+        <item>Increases Cleave Damage by $%</item>
+        <item>Increases Frenzy Damage by $%</item>
+        <item>Reduces resource cost of Rend by $ Fury</item>
+        <item>Increases Critical Hit Chance of Revenge by $%</item>
+        <item>Reduces resource cost of Weapon Throw by $ Fury</item>
+        <item>Reduces resource cost of Chakram by $ Hatred</item>
+        <item>Increases Evasive Fire Damage by $%</item>
+        <item>Increases Grenades Damage by $%</item>
+        <item>Reduces resource cost of Impale by $ Hatred</item>
+        <item>Increases Spike Trap Damage by $%</item>
+        <item>Increases Crippling Wave Damage by $%</item>
+        <item>Reduces resource cost of Cyclone Strike by $ Spirit</item>
+        <item>Increases Deadly Reach Damage by $%</item>
+        <item>Increases Exploding Palm Damage by $%</item>
+        <item>Increases Fists of Thunder Damage by $%</item>
+        <item>Increases Sweeping Wind Damage by $%</item>
+        <item>Increases Way of the Hundred Fists Damage by $%</item>
+        <item>Increases Critical Hit Chance of Acid Cloud by $%</item>
+        <item>Reduces resource cost of Firebats by $ Mana</item>
+        <item>Increases Locust Swarm Damage by $%</item>
+        <item>Reduces cooldown of Summon Zombie Dogs by $ seconds</item>
+        <item>Reduces resource cost of Arcane Torrent by $ Arcane Power</item>
+        <item>Reduces resource cost of Desintegrate by $ Arcane Power</item>
+        <item>Increases Electrocute Damage by $%</item>
+        <item>Increases Critical Hit Chance of Explosive Blast by $%</item>
+        <item>Reduces resource cost of Hydra by $ Arcane Power</item>
+        <item>Increases Critical Hit Chance of Ray of Frost by $%</item>
+        <item>+$% Movement Speed</item>
+        <item>Increases Gold and Health pickup by $ yards</item>
+        <item>Critical Hit Chance Increased by $%</item>
+        <item>Attack Speed Increased by $%</item>
+        <item>+$ Damage</item>
+        <item>+$% Damage to Humans"</item>
+        <item>+$% Damage to Undead"</item>
+        <item>Adds $% to Fire Damage</item>
+        <item>+$% Damage to Demons</item>
+        <item>+$% Damage to Beasts</item>
+        <item>+$ Attacks per Second</item>
+        <item>Adds $% to Lightining Damage</item>
+        <item>Gain $ Life per Fury Spent</item>
+        <item>Adds $% to Poison Damage</item>
+        <item>Adds $% to Holy Damage</item>
+        <item>Reduces damage from Lightning attacks by $%</item>
+        <item>Reduces damage from Cold attacks by $%</item>
+        <item>Adds $% to Arcane Damage</item>
+        <item>Adds $% to Cold Damage</item>
+        <item>Increases Critical Hit Chance of Strafe by $%</item>
+        <item>Reduces resource cost of Cluster Arrow by $ Hatred</item>
+        <item>Increases Corpse Spiders Damage by $%</item>
+        <item>Socketed [$]</item>
+    </string-array>
+    <integer-array name="property_is_double">
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="property_group">
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="property_delimiter">
+        <item>Damage</item>
+        <item>Control</item>
+        <item>Life</item>
+        <item>Resources</item>
+        <item>Stats</item>
+        <item>Properties</item>
+        <item>Skills</item>
+    </string-array>
+    <string-array name="property_name">
+        <item>Attack speed %</item>
+        <item>Ёбаный блид</item>
+        <item>Arcane Damage</item>
+        <item>Cold Damage</item>
+        <item>Fire Damage</item>
+        <item>Holy Damage</item>
+        <item>Lightning Damage</item>
+        <item>Poison Damage</item>
+        <item>Minimum Damage</item>
+        <item>Maximum Damage</item>
+        <item>Bonus vs Elites</item>
+        <item>Critical Hit Damage</item>
+        <item>Damage %</item>
+        <item>Chance to Blind</item>
+        <item>Chance to Chill</item>
+        <item>Chance to Fear</item>
+        <item>Chance to Freeze</item>
+        <item>Chance to Immobilize</item>
+        <item>Chance to Knockback</item>
+        <item>Chance to Slow</item>
+        <item>Chance to Stun</item>
+        <item>Life Steal</item>
+        <item>Life on Kill</item>
+        <item>Life on Hit</item>
+        <item>Life per Spirit Spent</item>
+        <item>Arcane Power on Crit</item>
+        <item>Hatred Regen</item>
+        <item>Mana Regen</item>
+        <item>Max Arcane Power</item>
+        <item>Max Discipline</item>
+        <item>Max Fury</item>
+        <item>Max Mana</item>
+        <item>Spirit Regen</item>
+        <item>Dexterity</item>
+        <item>Experience</item>
+        <item>Intelligence</item>
+        <item>Strength</item>
+        <item>Vitality</item>
+        <item>Bonus to Firebomb</item>
+        <item>Bonus to Haunt</item>
+        <item>Bonus to Plague of Thoads</item>
+        <item>Bonus to Energy Twister</item>
+        <item>Bonus to Magic Missile</item>
+        <item>Indestructible</item>
+        <item>Reduced Level</item>
+        <item>Bonus to Hammer of the Ancients</item>
+        <item>Bonus to Overpower</item>
+        <item>Bonus to Seismic Slam</item>
+        <item>Bonus to Whirlwind</item>
+        <item>Bonus to Lashing Tail Kick</item>
+        <item>Bonus to Tempest Rush</item>
+        <item>Bonus to Wave of Light</item>
+        <item>Bonus to Poison Dart</item>
+        <item>Bonus to Spirit Barrage</item>
+        <item>Bonus to Wall of Zombies</item>
+        <item>Bonus to Zombie Charger</item>
+        <item>All Resistance</item>
+        <item>Arcane Resistance</item>
+        <item>Armor</item>
+        <item>Block %</item>
+        <item>Cold Resistance</item>
+        <item>Fire Resistance</item>
+        <item>Lightning Resistance</item>
+        <item>Damage to Attacker</item>
+        <item>Physical Resistance</item>
+        <item>Poison Resistance</item>
+        <item>Damage from Elites</item>
+        <item>Damage from Melee</item>
+        <item>Bonus from Ranged</item>
+        <item>Crowd Control Reduction</item>
+        <item>Health from Globes</item>
+        <item>Life %</item>
+        <item>Life Regen</item>
+        <item>Bonus to Bola Shot</item>
+        <item>Bonus to Elemental Arrow</item>
+        <item>Bonus to Entagling Arrow</item>
+        <item>Bonus to Hungering Arrow</item>
+        <item>Bonus to Multishot</item>
+        <item>Bonus to Rapid Fire</item>
+        <item>Bonus to Arcane Orb</item>
+        <item>Bonus to Blizzard</item>
+        <item>Bonus to Meteor</item>
+        <item>Bonus to Shock Pulse</item>
+        <item>Bonus to Spectral Blade</item>
+        <item>Gold Find</item>
+        <item>Magic Find</item>
+        <item>Bonus to Bash</item>
+        <item>Bonus to Cleave</item>
+        <item>Bonus to Frenzy</item>
+        <item>Bonus to Rend</item>
+        <item>Bonus to Revenge</item>
+        <item>Bonus to Weapon Throw</item>
+        <item>Bonus to Chakram</item>
+        <item>Bonus to Evasive Fire</item>
+        <item>Bonus to Grenades</item>
+        <item>Bonus to Impale</item>
+        <item>Bonus to Spike Trap</item>
+        <item>Bonus to Crippling Wave</item>
+        <item>Bonus to Cyclone Strike</item>
+        <item>Bonus to Deadly Reach</item>
+        <item>Bonus to Exploding Palm</item>
+        <item>Bonus to Fists of Thunder</item>
+        <item>Bonus to Sweeping Wind</item>
+        <item>Bonus to Way of Hundred Fists</item>
+        <item>Bonus to Acid Cloud</item>
+        <item>Bonus to Firebats</item>
+        <item>Bonus to Swarm</item>
+        <item>Bonus to Summon Zombie Dogs</item>
+        <item>Bonus to Arcane Torrent</item>
+        <item>Bonus to Desintegrate</item>
+        <item>Bonus to Electrocute</item>
+        <item>Bonus to Explosive Blast</item>
+        <item>Bonus to Hydra</item>
+        <item>Bonus to Ray of Frost</item>
+        <item>Movement Speed</item>
+        <item>Pickup Radius</item>
+        <item>Critical Hit Chance</item>
+        <item>Attack Speed Increase</item>
+        <item>Damage</item>
+        <item>Damage to Humans</item>
+        <item>Damage to Undead</item>
+        <item>Fire Damage %</item>
+        <item>Damage to Demons</item>
+        <item>Damage to Beasts</item>
+        <item>Attacks per Second</item>
+        <item>Lightning Damage %</item>
+        <item>Life per Fury Spent</item>
+        <item>Poison Damage %</item>
+        <item>Holy Damage %</item>
+        <item>Lightning Damage Reduce %</item>
+        <item>Cold Damage Reduce %</item>
+        <item>Arcane Damage %</item>
+        <item>Cold Damage %</item>
+        <item>Bonus to Strafe</item>
+        <item>Bonus to Cluster Arrow</item>
+        <item>Bonus to Corpse Spiders</item>
+        <item>Socketed</item>
+    </string-array>
+    <string name="delete_poroperty">Delete property?</string>
+    <string-array name="property_result_string">
+    	<item>Increases Attack Speed by $%</item>
+        <item>$.$% to inflict Bleed for $-$ damage over $ seconds</item> 
+        <item>+$-$ Arcane Damage</item>
+        <item>+$-$ Cold Damage</item>
+        <item>+$-$ Fire Damage</item>
+        <item>+$-$ Holy Damage</item>
+        <item>+$-$ Lightning Damage</item>
+        <item>+$-$ Poison Damage</item>
+        <item>+$-$ Minimum Damage</item>
+        <item>+$-$ Maximum Damage</item>
+        <item>Increases Damage Against Elites by $%</item>
+        <item>Critical Hit Damage Increased by $%</item>
+        <item>+$% Damage</item>
+        <item>$.$% Chance to Blind on Hit</item>
+        <item>$.$% Chance to Chill on Hit</item>
+        <item>$.$% Chance to Fear on Hit</item>
+        <item>$.$% Chance to Freeze on Hit</item>
+        <item>$.$% Chance to Immobilize on Hit</item>
+        <item>$.$% Chance to Knockback on Hit"</item>
+        <item>$.$% Chance to Slow on Hit</item>
+        <item>$.$% Chance to Stun on Hit</item>
+        <item>$.$% of Damage Dealt Is Converted to Life</item>
+        <item>+$ Life after Each Kill</item>
+        <item>Each Hit Adds +$ Life</item>
+        <item>Gain $.$ Life per Spirit Spent</item>
+        <item>Critical Hits grant $ Arcane Power"</item>
+        <item>Increases Hatred Regeneration by $.$ per Second</item>
+        <item>Increases Mana Regeneration by $ per Second</item>
+        <item>+$ Maximum Arcane Power"</item>
+        <item>+$ Maximum Discipline</item>
+        <item>+$ Maximum Fury</item>
+        <item>+$ Maximum Mana</item>
+        <item>Increases Spirit Regeneration by $.$ per Second</item>
+        <item>+$ Dexterity"</item>
+        <item>Monster kills grant +$ experience</item>
+        <item>+$ Intelligence</item>
+        <item>+$ Strength</item>
+        <item>+$ Vitality</item>
+        <item>Reduces resource cost of Firebomb by $ Mana</item>
+        <item>Increases Haunt Damage by $%</item>
+        <item>Increases Plague of Thoads Damage by $%</item>
+        <item>Increases Critical Hit Chance of Energy Twister by $%</item>
+        <item>Increases Magic Missile Damage by $%</item>
+        <item>Ignores Durability Loss</item>
+        <item>Level Requirement Reduced by $</item>
+        <item>Reduces resource cost of Hammer of the Ancients by $ Fury</item>
+        <item>Increases Critical Hit Chance of Overpower by $%</item>
+        <item>Increases Critical Hit Chance of Seismic Slam by $%</item>
+        <item>Increases Critical Hit Chance of Whirlwind by $%</item>
+        <item>Reduces resource cost of Lashing Tail Kick by $ Spirit</item>
+        <item>Increases Critical Hit Chance of Tempest Rush by $%</item>
+        <item>Increases Critical Hit Chance of Wave of Light by $%</item>
+        <item>Increases Poison Dart Damage by $%</item>
+        <item>Increases Spirit Barrage Damage by $%</item>
+        <item>Reduces cooldown of Wall of Zombies by $ seconds</item>
+        <item>Reduces resource cost of Zombie Charger by $ Mana</item>
+        <item>+$ Resistance to All Elements</item>
+        <item>+$ Arcane Resistance</item>
+        <item>+$ Armor</item>
+        <item>+$% Chance to Block</item>
+        <item>+$ Cold Resistance</item>
+        <item>+$ Fire Resistance</item>
+        <item>+$ Lightning Resistance</item>
+        <item>Melee attackers takes $ damage per hit</item>
+        <item>+$ Physical Resistance</item>
+        <item>+$ Poison Resistance</item>
+        <item>Reduces damage from elites by $%</item>
+        <item>Reduces damage from melee attacks by $%</item>
+        <item>Reduces damage from ranged attacks by $%</item>
+        <item>Reduces duration of control imparing effects by $%</item>
+        <item>Health Globes Grant +$ Life</item>
+        <item>+$% Life</item>
+        <item>Regenerates $ Life per Second</item>
+        <item>Increases Bola Shot Damage by $%</item>
+        <item>Increases Elemental Arrow Damage by $%</item>
+        <item>Increases Entagling Shot Damage by $%</item>
+        <item>Increases Hungering Arrow Damage by $%</item>
+        <item>Increases Critical Hit Chance of Multishot by $%</item>
+        <item>Increases Critical Hit Chance of Rapid Fire by $%</item>
+        <item>Increases Critical Hit Chance of Arcane Orb by $%</item>
+        <item>Increases Duration of Blizzard by $ Seconds</item>
+        <item>Reduces resource cost of Meteor by $ Arcane Power</item>
+        <item>Increases Shock Pulse Damage by $%</item>
+        <item>Increases Spectral Blade Damage by $%</item>
+        <item>+$% Extra Gold from Monsters</item>
+        <item>$% Better Chance of Finding Magical Items</item>
+        <item>Increases Bash Damage by $%</item>
+        <item>Increases Cleave Damage by $%</item>
+        <item>Increases Frenzy Damage by $%</item>
+        <item>Reduces resource cost of Rend by $ Fury</item>
+        <item>Increases Critical Hit Chance of Revenge by $%</item>
+        <item>Reduces resource cost of Weapon Throw by $ Fury</item>
+        <item>Reduces resource cost of Chakram by $ Hatred</item>
+        <item>Increases Evasive Fire Damage by $%</item>
+        <item>Increases Grenades Damage by $%</item>
+        <item>Reduces resource cost of Impale by $ Hatred</item>
+        <item>Increases Spike Trap Damage by $%</item>
+        <item>Increases Crippling Wave Damage by $%</item>
+        <item>Reduces resource cost of Cyclone Strike by $ Spirit</item>
+        <item>Increases Deadly Reach Damage by $%</item>
+        <item>Increases Exploding Palm Damage by $%</item>
+        <item>Increases Fists of Thunder Damage by $%</item>
+        <item>Increases Sweeping Wind Damage by $%</item>
+        <item>Increases Way of the Hundred Fists Damage by $%</item>
+        <item>Increases Critical Hit Chance of Acid Cloud by $%</item>
+        <item>Reduces resource cost of Firebats by $ Mana</item>
+        <item>Increases Locust Swarm Damage by $%</item>
+        <item>Reduces cooldown of Summon Zombie Dogs by $ seconds</item>
+        <item>Reduces resource cost of Arcane Torrent by $ Arcane Power</item>
+        <item>Reduces resource cost of Desintegrate by $ Arcane Power</item>
+        <item>Increases Electrocute Damage by $%</item>
+        <item>Increases Critical Hit Chance of Explosive Blast by $%</item>
+        <item>Reduces resource cost of Hydra by $ Arcane Power</item>
+        <item>Increases Critical Hit Chance of Ray of Frost by $%</item>
+        <item>+$% Movement Speed</item>
+        <item>Increases Gold and Health pickup by $ yards</item>
+        <item>Critical Hit Chance Increased by $%</item>
+        <item>Attack Speed Increased by $%</item>
+        <item>+$-$ Damage</item>
+        <item>+$% Damage to Humans"</item>
+        <item>+$% Damage to Undead"</item>
+        <item>Adds $% to Fire Damage</item>
+        <item>+$% Damage to Demons</item>
+        <item>+$% Damage to Beasts</item>
+        <item>+$ Attacks per Second</item>
+        <item>Adds $% to Lightining Damage</item>
+        <item>Gain $ Life per Fury Spent</item>
+        <item>Adds $% to Poison Damage</item>
+        <item>Adds $% to Holy Damage</item>
+        <item>Reduces damage from Lightning attacks by $%</item>
+        <item>Reduces damage from Cold attacks by $%</item>
+        <item>Adds $% to Arcane Damage</item>
+        <item>Adds $% to Cold Damage</item>
+        <item>Increases Critical Hit Chance of Strafe by $%</item>
+        <item>Reduces resource cost of Cluster Arrow by $ Hatred</item>
+        <item>Increases Corpse Spiders Damage by $%</item>
+        <item>Socketed [$]</item>
+        </string-array>
+    <string name="socket">Socket</string>
+    <string name="buyout">Buyout</string>
+    <string name="bid">Bid</string>
+    <string name="NA">N/A</string>
+    <string name="loading_results">Loading results. Please wait...</string>
+    <string name="results_loading_error">An error occured during loading results. Please try later.</string>
+    <string name="incorrect_login">Login name is too short.</string>
+    <string name="try_login">Trying to log in. Please wait...</string>
+    <string name="creating_account">Creating your account. Please wait...</string>
+</resources>
